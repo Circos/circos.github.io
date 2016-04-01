@@ -1,0 +1,133 @@
+trong, dt1.title { margin-bottom: 1em; }
+h2.title { height: auto; }
+
+#page-body { color: #000; }
+
+.clear { display:block; font-size:0; margin:0; padding:0; height:0; line-height:0; clear:both; }
+
+.hidden { display: none; }
+.fl { float:left; }
+.fr { float:right; }
+.tl { text-align:left; }
+.tr { text-align:right; }
+.tc { text-align:center; }
+.vt { vertical-align:top; }
+.vm { vertical-align:middle; }
+.vb { vertical-align:bottom; }
+
+.input-row { margin-bottom: 1em; }
+.error { color: #800; }
+
+.entry {
+	opacity: 1 !important;
+	margin-bottom: 3em;
+	box-shadow: None !important;
+	-moz-box-shadow: None !important;
+	-webkit-box-shadow: None !important;
+	-o-box-shadow: None !important;
+}
+.entry:hover {
+	cursor:auto !important;
+}
+
+.post-text p {
+color: black;
+}
+
+.circos-form input[type=text], .circos-form input[type=password], .circos-form textarea {
+background: url(../images/form_input_bg.png) repeat-x #F7F7F7 !important;
+border: 1px solid #CCC !important;
+width: 100% !important;
+color: #111 !important;
+padding: 8px !important;
+}
+
+.circos-form button, .circos-form input[type=submit], .circos-form input[type=reset] {
+width: 73px;
+height: 35px;
+border: 0px !important;
+color: #fff !important;
+font-size: 12px;
+text-transform: uppercase;
+margin-right: 9px;
+height: 35px;
+background-color: #2c7fbd;
+}
+
+#form-login { margin-bottom: 2.5em; }
+#form-login label { display: block; }
+#form-login input[type=text], #form-login input[type=password], #form-login textarea,
+#form-forgot-password input[type=text], #form-forgot-password input[type=password], #form-forgot-password textarea {
+	width: 371px !important;
+}
+
+#form_register_user input[type=text], #form_register_user input[type=password], #form_register_user textarea {
+	width: 430px !important;
+}
+#form_register_user span.error { margin-left: 1em; }
+#form_register_user img { margin-bottom: 0.5em; }
+
+#announce-box {
+	text-align: left;
+	padding: 0 1em 0 0;
+}
+	#announce-box h3 { margin: 0; }
+	#announce-box h5 { color: #000; }
+	#announce-box .date { display:inline; position:relative; top: auto; right: auto; padding: 0; color: #333; font-family: arial,helvetica,clean,sans-serif}
+	#announce-box li { padding-bottom: 1em; }
+
+.bk-form-field-error input, .bk-form-field-error textarea { border: 2px solid red; }
+.signup-header{ 
+	background:url(../images/priceplan/broad_green_bar.png) no-repeat;
+}
+
+.signup-ack { background-color:#efede7; margin:0 3em 6em 6em; padding:2em; }
+.signup-ack p { font-size:15px; }
+
+.price-plan {
+	margin:0em 4em 0em 3em;
+	opacity: 1 !important;
+	box-shadow: 5px 5px 5px #ccc !important;
+	-moz-box-shadow: 5px 5px 5px #ccc !important;
+	-webkit-box-shadow: 5px 5px 5px #ccc !important;
+	-o-box-shadow: 5px 5px 5px #ccc !important;
+	/* rounded corner stuff */
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari and Chrome */
+	border-radius: 5px; /* Opera 10.5+, future browsers, and now also Internet Explorer 6+ using IE-CSS3 */
+	position:relative; top:-90px;
+}
+.price-plan table { table-layout:fixed; width:100%;}
+.price-plan table th, .price-plan table td { font-weight:bold; text-align:center; }
+.price-plan table th { background-color:#fff; }
+.price-plan table td { font-size:12px; padding:1.5em 2em 1.5em 2em; }
+.price-plan table .light { background-color:#eee; }
+.price-plan table .dark { background-color:#ddd; }
+
+.signup-freemium { margin-top:20px; margin-bottom:30px; }
+.signup-freemium table .signup-footer { font-style:italic; }
+.signup-freemium table .signup-label { font-size:14px; vertical-align:bottom; padding-bottom:1em; padding-right:1em; }
+
+.freemium-form input[type=text], .freemium-form  input[type=password], .freemium-form textarea {
+	background: url(../images/form_input_bg.png) repeat-x #F7F7F7 !important;
+	border: 1px solid #CCC !important;
+	width: 100% !important;
+	color: #111 !important;
+	padding: 8px !important;
+}
+
+.freemium-form button, .freemium-form input[type=submit], .freemium-form input[type=reset] {
+	background: url(../images/priceplan/signup_submit.png) repeat-x #666;
+	border:1px;
+	width: 150px;
+	height: 40px;
+	color: #fff !important;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align:center;
+	font-weight:bold;
+	/* rounded corner stuff */
+	-moz-border-radius: 8px; /* Firefox */
+	-webkit-border-radius: 8px; /* Safari and Chrome */
+	border-radius: 8px; /* Opera 10.5+, future browsers, and now also Internet Explorer 6+ using IE-CSS3 */
+}

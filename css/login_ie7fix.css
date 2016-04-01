@@ -1,0 +1,57 @@
+body{
+	display:block;
+}
+.row .span6{
+	width: 100% !important;
+	margin-left: 50px !important;
+	margin-right: auto !important;
+	padding-bottom: 25px !important;
+}
+div{
+	height: auto !important;
+	margin-top: 0 !important;
+	margin-bottom: 20px !important;
+}
+div.important-things
+{
+	width: auto;
+}
+div.dont-have-account div{
+	/*width: auto !important;*/
+	text-align: left;
+}
+div.dont-have-account div.l, div.dont-have-account div.r{
+	/*margin-right: auto !important;*/
+	/*margin-left: 50px !important;*/
+	margin-left: 0px;
+	margin-bottom: 50px;
+	padding-bottom: 0;
+} 
+#header-content{
+	padding : 0 !important;
+}
+span.title{
+	padding-bottom:10px;
+}
+input#email, input#forgot_password_email
+{
+	width: 286px;
+	height: 30px;
+}
+#footer-content{
+	padding-top:0;
+}
+.dont-have-account{
+	margin-left: 100px !important;
+	margin-bottom: 0 !important;
+	width: auto !important;
+	text-align: left !important;
+	padding:0;
+
+}
+.dont-have-account div{
+	width:  auto !important;
+}
+div.social-links{
+	text-align: left;
+}

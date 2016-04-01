@@ -1,0 +1,33 @@
+.row .span6{
+	width: 100% !important;
+	clear:both;
+	margin-left: 50px !important;
+	margin-right: auto !important;
+	padding-bottom: 25px !important;
+}
+.div{
+	margin-bottom: 20px !important;
+}
+span.addon{
+	height: auto;
+}
+#header-wrapper{
+	width:100% !important;
+}
+div.dont-have-account{
+	margin-top: 50px;
+	margin-left: 50px !important;
+	text-align: left;
+}
+div.dont-have-account div{
+	width: 100% !important;
+}
+div.dont-have-account div.l, div.dont-have-account div.r{
+	width: 100% !important;
+	clear:both;
+	margin-right: auto !important;
+	margin-left: 50px !important;
+} 
+div.social-links{
+	text-align: left;
+}

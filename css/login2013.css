@@ -1,0 +1,219 @@
+@viewport{
+	width: 580px;
+}
+/*header start*/
+#header{background-color:#000; border-bottom: 3px solid #74bc68;}
+#content{
+	padding: 0;
+}
+a:hover {
+	text-decoration: none;
+}
+#header-content {
+	padding-left: 15px;
+}
+#logo{
+	margin:17.5px 0;
+}
+h3.sidebar-header{
+	font-size: 19px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+#container2{
+	width: 1100px;padding: 0;
+}
+/*header end*/
+
+/*footer start*/
+#footer{
+	background:  #37414E;
+}
+.swatch-footergery{
+	background: #37414e;color: #FFF;
+}
+.swatch-footergery h3{
+	color: #FFF;
+	padding: 0;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+#footer .sidebar-widget a{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Raleway';
+    font-weight: 600;
+	font-size: 16px;
+}
+ul.social-icons li{
+	display: inline !important\9;
+}
+.social-icons li i{
+	line-height: 40px;
+}
+.social-icons li a {
+	width: 40px;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 40px;
+}
+.row-fluid {
+	font-size: 13px;
+	font-family: 'Raleway';
+	font-weight: 500;
+	line-height: 27px;
+}
+/*footer end*/
+
+/*login-body start*/
+.title{
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	line-height: 25px;
+}
+.login_box{
+	border:1px solid black; 
+	padding:25px 30px;
+	margin-top:30px;
+	min-height: 193px;
+	position: relative;
+}
+#form-login{
+	margin: 0;
+}
+form#form-login div.input-prepend {
+	margin-bottom: 15px;
+	height: 43px;
+}
+form#form-forgot-password #forgot_password_email,form#form-login #email, form#form-login #password {
+	width: 279px  !important;
+	border-radius: 0;
+	height: 41px;
+	border: 1px solid #cccccc !important;
+	padding: 0 10px !important;
+}
+form#form-forgot-password #forgot_password_email:focus,form#form-login #email:focus, form#form-login #password:focus{
+	border:1px #539ad1 solid !important;
+	box-shadow: none !important;
+}
+form#form-forgot-password #forgot_password_email:focus:invalid:focus,form#form-login #email:focus:invalid:focus, form#form-login #password:focus:invalid:focus{
+	border:1px #EE745F solid !important;
+	box-shadow: none !important;
+	color: #EE745F !important;
+}
+.login_box form{
+	height: 100%;
+}
+.login_box input[type=submit] {
+	background:#ffffff url('../images/login/arrow.png') no-repeat right center;
+	color: #539ad1;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 0px;
+	padding: 0 25px 0 0;
+	position: absolute;
+	bottom: 25px;
+	right: 30px;
+}
+.login_box input[type=submit]:hover{
+	right: 25px;
+}
+.error{
+	color: #EE745F;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: 600;
+    width: 335px;
+}
+.error b{
+	font-weight: 800;
+}
+div.dont-have-account span.title {
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 28px;
+	text-align: center;
+}
+div.dont-have-account span {
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-weight: 300;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 19px;
+}
+div.dont-have-account {
+	text-align: center;
+}
+@media (max-width: 979px){
+	div.dont-have-account {
+		margin-left: 30px !important;
+		text-align: left;
+	}
+	div.dont-have-account > div {
+		margin: 0 !important;
+	}
+}
+div.l img, div.r img {
+	margin-top: 15px;
+}
+#login_container{
+	margin-top: 60px;
+	padding-left: 15px;
+}
+.login_content{
+	width: 503px;
+	float:left;
+}
+.login_content:first-child{
+	margin-right:100px;
+	margin-bottom: 30px;
+}
+.login_box_text{
+	font-family: 'Raleway';
+	font-weight: 300;
+	font-size: 17px;
+}
+#form-forgot-password{
+	margin-top:15px;
+}
+#non_customer{
+	margin-top:60px;
+	margin-bottom:90px;
+	width:100%;
+}
+.dont-have-account{
+	margin-left:auto; 
+	margin-right:auto;
+}
+.dont-have-account .title{
+	padding-left:25px; 
+	padding-right:25px; 
+	width: 425px; 
+	padding-bottom:10px;
+	margin-bottom: 40px;
+}
+.non_customer_content{
+	margin:auto;
+	font-size: 18px;
+	text-align: center;
+	width: 475px;
+}
+.non_customer_content .r{
+	display:inline;
+}
+.non_customer_content .l{
+	margin-left:90px;
+	display:inline;
+}
+.clear{
+	clear: both;
+}
+
+/*login-body end*/
